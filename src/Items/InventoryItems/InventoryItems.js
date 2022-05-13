@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import useInventoryItem from '../../Hooks/useInventoryItem/useInventoryItem';
-import DisplayInventoryItem from '../DisplayInventoryItem/DisplayInventoryItem';
+import DisplayInventoryItem from '../DisplayInventoryItem/DisplayInventoryItem'
 
 const InventoryItems = () => {
     const [item, setItem] = useInventoryItem()
