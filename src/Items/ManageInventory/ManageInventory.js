@@ -7,7 +7,7 @@ import useInventoryItem from '../../Hooks/useInventoryItem/useInventoryItem'
 import { PencilIcon, TrashIcon, XIcon } from '@heroicons/react/solid'
 
 const ManageInventory = () => {
-    const [items, setItems] = useInventoryItem();
+    const [items, setItems] = useInventoryItem()
 
 
     const handleDelete = id => {
