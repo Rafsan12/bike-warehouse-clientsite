@@ -10,7 +10,7 @@ const useInventoryItem = () => {
             .then(data => setItem(data))
     }, [])
 
-    return [item, setItem];
+    return [item, setItem]
 }
 
 
