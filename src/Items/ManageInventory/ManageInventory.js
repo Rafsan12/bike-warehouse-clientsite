@@ -11,7 +11,7 @@ const ManageInventory = () => {
 
 
     const handleDelete = id => {
-        const proceed = window.confirm('Are you want to delete?');
+        const proceed = window.confirm('Are you want to delete?')
         if (proceed) {
             const url = `https://lit-falls-24726.herokuapp.com/invenrotyitems/${id}`;
             console.log(url);
