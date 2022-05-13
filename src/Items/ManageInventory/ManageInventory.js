@@ -3,7 +3,7 @@ import { Table } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router';
-import useInventoryItem from '../../Hooks/useInventoryItem/useInventoryItem';
+import useInventoryItem from '../../Hooks/useInventoryItem/useInventoryItem'
 import { PencilIcon, TrashIcon, XIcon } from '@heroicons/react/solid'
 
 const ManageInventory = () => {
