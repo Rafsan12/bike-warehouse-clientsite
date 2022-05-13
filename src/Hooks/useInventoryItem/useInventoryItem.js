@@ -5,7 +5,7 @@ const useInventoryItem = () => {
 
 
     useEffect(() => {
-        fetch('https://enigmatic-chamber-62078.herokuapp.com/invenrotyitems')
+        fetch('https://lit-falls-24726.herokuapp.com/invenrotyitems')
             .then(res => res.json())
             .then(data => setItem(data))
     }, []);
