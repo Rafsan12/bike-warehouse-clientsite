@@ -3,7 +3,7 @@ import useInventoryItem from '../../Hooks/useInventoryItem/useInventoryItem';
 import DisplayInventoryItem from '../DisplayInventoryItem/DisplayInventoryItem';
 
 const InventoryItems = () => {
-    const [item, setItem] = useInventoryItem();
+    const [item, setItem] = useInventoryItem()
 
     return (
         <div>
