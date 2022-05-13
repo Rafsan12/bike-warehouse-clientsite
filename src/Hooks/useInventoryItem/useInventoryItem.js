@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const useInventoryItem = () => {
-    const [item, setItem] = useState([]);
+    const [item, setItem] = useState([])
 
 
     useEffect(() => {
